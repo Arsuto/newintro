@@ -1,0 +1,65 @@
+
+h1{
+    font-size: 80px;
+}
+/* Comment */
+* {
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 219, 142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: aquamarine;
+    color: red;
+    font-size: 100px;
+    padding: 20px;
+    text-align: center;
+    /* height: 200px; */
+}
+nav{
+    background-color: azure;
+    color: black;
+    float: left;
+    height: 400px;
+    width: 25%;
+    font-size: 60px;
+    padding: 20px;
+}
+article{
+    background-color: rgb(44, 146, 241);
+    color: aliceblue;
+    height: 400px;
+    width: 75%;
+    font-size: 50px;
+    padding: 20px;
+    float: left;
+}
+/* article2{
+    float: left;
+    background-color: rgb(44, 241, 182);
+    color: aliceblue;
+    height: 400px;
+    width: 25%;
+    font-size: 50px;
+    padding: 20px;
+}
+*/
+footer{
+    padding: 20px;
+    background-color: grey;
+    color: azure;
+    font-size: 80px;
+    text-align: center;
+    height: auto;
+}
+@media (max-width: 600px) {
+    nav , article{
+        width: 100%;
+        height: auto;
+    }
+    header,footer{
+        font-size: 60px;
+    }
+}
